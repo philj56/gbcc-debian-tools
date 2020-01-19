@@ -1,0 +1,9 @@
+Package: gbcc
+Version: 0.1.GBCC_GIT_REVISION-1
+Architecture: amd64
+Maintainer: Philip Jones <philj56@gmail.com>
+Installed-Size: 294
+Depends: libc6 (>= 2.17), libepoxy0 (>= 1.0), libglib2.0-0 (>= 2.12.0), libgtk-3-0 (>= 3.16.2), libopenal1 (>= 1.14), libpng16-16 (>= 1.6.2-1), libsdl2-2.0-0 (>= 2.0.8)
+Section: games
+Priority: optional
+Description: Game Boy and Game Boy Color emulator written in C.

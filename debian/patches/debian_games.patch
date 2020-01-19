@@ -1,0 +1,21 @@
+Description: Install binaries to /usr/games
+  Debian expects games to be in /usr/games, so we move it there.
+
+--- gbcc-0.1.GBCC_GIT_REVISION.orig/meson.build
++++ gbcc-0.1.GBCC_GIT_REVISION/meson.build
+@@ -146,6 +146,7 @@ executable(
+   sdl_sources,
+   dependencies: [sdl, thread],
+   install: true,
++  install_dir: join_paths(get_option('prefix'), 'games'),
+   link_with: libgbcc,
+   link_args: is_win ? ['-static'] : []
+   #link_args: ['-fprofile-instr-use']
+@@ -158,6 +159,7 @@ if gtk.found()
+     gtk_sources,
+     dependencies: [sdl, gtk, thread],
+     install: true,
++    install_dir: join_paths(get_option('prefix'), 'games'),
+     link_with: libgbcc,
+     #link_args: ['-fprofile-instr-use']
+     #link_args: ['-fprofile-instr-generate']

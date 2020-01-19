@@ -1,0 +1,21 @@
+Description: Update copyright location
+ Debian expects packages to be located under
+ /usr/share/doc/<package>/copyright, so we move it here.
+
+--- gbcc-0.1.GBCC_GIT_REVISION.orig/meson.build
++++ gbcc-0.1.GBCC_GIT_REVISION/meson.build
+@@ -184,12 +184,13 @@ install_subdir(
+ 
+ license_dir = join_paths(
+   get_option('datadir'),
+-  'licenses',
++  'doc',
+   'gbcc'
+ )
+ 
+ install_data(
+   'LICENSE',
++  rename: 'copyright',
+   install_dir: license_dir
+ )
+ 

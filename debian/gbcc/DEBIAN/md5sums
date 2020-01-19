@@ -1,0 +1,16 @@
+efebfb62f3e4c0aa57be04c346389d45  usr/games/gbcc
+95e878245926c9010c1ce9969117d510  usr/games/gbcc-gtk
+ad963e62198037abe24247e2c613d994  usr/share/bash-completion/completions/gbcc
+f25f9e43414e5ff2c7c77a861e767e57  usr/share/doc/gbcc/changelog.Debian.gz
+54976fbb5f9e776e2d024012f0e6a04d  usr/share/doc/gbcc/copyright
+b8b428f7f207fd0e1078777b10d05764  usr/share/gbcc/gbcc.ui
+19e31e8722b7a723d5634a0bd8b18a85  usr/share/gbcc/print.wav
+26455a867a57fc701a303d039786bf70  usr/share/gbcc/shaders/colour-correct.frag
+c564a0f2693a4127e87c5538edf215d8  usr/share/gbcc/shaders/dotmatrix.frag
+47e4ef1fb96a8bcf9b962e91e75d4e62  usr/share/gbcc/shaders/flipped.vert
+51afd3ba387919cb21ebaf0279d4bc56  usr/share/gbcc/shaders/frameblend.frag
+0cc50a58db6506c1475876b218fc9ad2  usr/share/gbcc/shaders/nothing.frag
+9d6ffc7e5f78d6e79579d70b614b1e0f  usr/share/gbcc/shaders/subpixel.frag
+629e4ef1d43249352b0e52cce316e690  usr/share/gbcc/shaders/vert.vert
+9ec8d1caf5d9887f9b26ac53ba62e278  usr/share/gbcc/tileset.png
+b980648ec1d97e114eecd7d10443e12c  usr/share/man/man6/gbcc.6.gz
