@@ -4,6 +4,8 @@ rev=$(git -C gbcc rev-list --count HEAD)
 
 version=0.1.$rev
 
+pushd.
+
 mkdir -p debbuild && cd debbuild
 
 cp -r ../gbcc gbcc-$version
@@ -32,6 +34,8 @@ cp LICENSE debian/copyright
 grep -rlI GBCC_GIT_REVISION debian | xargs sed -i "s/GBCC_GIT_REVISION/$rev/g"
 
 debuild -us -uc
+
+popd
 
 mkdir -p gbcc-debian
 cp debbuild/*.deb gbcc-debian
