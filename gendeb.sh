@@ -32,3 +32,6 @@ cp LICENSE debian/copyright
 grep -rlI GBCC_GIT_REVISION debian | xargs sed -i "s/GBCC_GIT_REVISION/$rev/g"
 
 debuild -us -uc
+
+mkdir -p gbcc-debian
+cp debbuild/*.deb gbcc-debian
