@@ -4,7 +4,7 @@ rev=$(git -C gbcc rev-list --count HEAD)
 
 version=0.1.$rev
 
-pushd.
+pushd .
 
 mkdir -p debbuild && cd debbuild
 
