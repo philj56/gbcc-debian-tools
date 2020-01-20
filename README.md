@@ -1,10 +1,10 @@
-# GBCC Debian tools
+# [GBCC](https://philj56.github.io/gbcc) Debian tools
 This is a set of tools used to automatically generate a
 [gbcc](https://philj56.github.io/gbcc) `.deb` package for debian-like systems,
 specifically meant to run on Ubuntu 18.04. You really shouldn't try to run this
 on your machine, or if you do, at least do it in a VM.
 
-Neverless, the sequence of instructions goes something like this:
+Nevertheless, the sequence of instructions goes something like this:
 
 ```bash
 # Get the sources
