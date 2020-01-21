@@ -14,6 +14,7 @@ files=(
 	gbcc-$version/completions/
 	gbcc-$version/doc/
 	gbcc-$version/shaders/
+	gbcc-$version/icons/
 	gbcc-$version/src/
 	gbcc-$version/meson.build
 	gbcc-$version/meson_options.txt
