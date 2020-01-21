@@ -3,7 +3,7 @@ Description: Install binaries to /usr/games
 
 --- gbcc-0.1.GBCC_GIT_REVISION.orig/meson.build
 +++ gbcc-0.1.GBCC_GIT_REVISION/meson.build
-@@ -151,6 +151,7 @@ executable(
+@@ -153,6 +153,7 @@ executable(
    sdl_sources,
    dependencies: [sdl, thread],
    install: true,
@@ -11,7 +11,7 @@ Description: Install binaries to /usr/games
    link_with: libgbcc,
    #link_args: ['-fprofile-instr-use']
    #link_args: ['-fprofile-instr-generate']
-@@ -162,6 +161,7 @@ if gtk.found()
+@@ -164,6 +163,7 @@ if gtk.found()
      gtk_sources,
      dependencies: [sdl, gtk, thread],
      install: true,

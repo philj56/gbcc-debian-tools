@@ -4,7 +4,7 @@ Description: Update copyright location
 
 --- gbcc-0.1.GBCC_GIT_REVISION.orig/meson.build
 +++ gbcc-0.1.GBCC_GIT_REVISION/meson.build
-@@ -193,12 +193,13 @@ install_subdir(
+@@ -195,12 +195,13 @@ install_subdir(
  
  license_dir = join_paths(
    get_option('datadir'),
