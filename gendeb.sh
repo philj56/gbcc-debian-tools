@@ -19,6 +19,7 @@ files=(
 	gbcc-$version/meson.build
 	gbcc-$version/meson_options.txt
 	gbcc-$version/tileset.png
+	gbcc-$version/camera.png
 	gbcc-$version/print.wav
 	gbcc-$version/LICENSE
 )
